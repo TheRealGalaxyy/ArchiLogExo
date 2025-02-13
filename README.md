@@ -1,9 +1,9 @@
 # **Exercice 2**
 
 ## Membres du groupe : 
-    - Melosso Tom
-    - Schaller Théo
-    - Idoux Clément
+- Melosso Tom
+- Schaller Théo
+- Idoux Clément
 
 ## **Quel Design Pattern ?**
 Nous pensons que le Design Pattern le plus adapté est le décorateur car cela permet de créer une classe de base (ici la boisson) 
