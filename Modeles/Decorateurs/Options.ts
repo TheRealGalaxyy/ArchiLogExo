@@ -1,6 +1,6 @@
-import { DecorateurBase } from "./DecorateurBase.ts";
+import { BoissonDecorateur } from "./BoissonDecorateur.ts";
 
-export class Lait extends DecorateurBase {
+export class Lait extends BoissonDecorateur {
     getDesciption(): string {
       return this.boisson.getDesciption() + " + lait"
     }
@@ -10,7 +10,7 @@ export class Lait extends DecorateurBase {
     }
 }
 
-export class Sucre extends DecorateurBase {
+export class Sucre extends BoissonDecorateur {
     getDesciption(): string {
       return this.boisson.getDesciption() + " + Sucre"
     }
@@ -20,7 +20,7 @@ export class Sucre extends DecorateurBase {
     }
 }
 
-export class Caramel extends DecorateurBase {
+export class Caramel extends BoissonDecorateur {
     getDesciption(): string {
       return this.boisson.getDesciption() + " + Caramel"
     }

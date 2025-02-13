@@ -1,5 +1,5 @@
 import { Boisson } from "../Boissons/IBoisson.ts";
-export abstract class DecorateurBase implements Boisson{
+export abstract class BoissonDecorateur implements Boisson{
     protected boisson : Boisson
 
     constructor(boisson : Boisson){
