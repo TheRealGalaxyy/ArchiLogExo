@@ -1,6 +1,6 @@
 # **Exercice 2**
 
-## **Membres du groupe : **
+## Membres du groupe : 
     - Melosso Tom
     - Schaller Théo
     - Idoux Clément
